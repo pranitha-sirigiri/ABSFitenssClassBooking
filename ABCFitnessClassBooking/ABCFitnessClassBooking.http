@@ -1,0 +1,6 @@
+@ABCFitnessClassBooking_HostAddress = http://localhost:5276
+
+GET {{ABCFitnessClassBooking_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

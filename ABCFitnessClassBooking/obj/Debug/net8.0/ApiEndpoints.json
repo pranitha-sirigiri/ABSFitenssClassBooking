@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "ABCFitnessClassBooking.Controllers.ClassBookingController",
+    "Method": "CreateBooking",
+    "RelativePath": "api/ClassBooking/Booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ABCFitnessClassBooking.Models.BookingDetailsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ABCFitnessClassBooking.Controllers.ClassBookingController",
+    "Method": "GetBookings",
+    "RelativePath": "api/ClassBooking/Bookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ABCFitnessClassBooking.Controllers.ClassBookingController",
+    "Method": "AddClass",
+    "RelativePath": "api/ClassBooking/Class",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classDetails",
+        "Type": "ABCFitnessClassBooking.Models.ClassDetailsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ABCFitnessClassBooking.Controllers.ClassBookingController",
+    "Method": "GetAllClassesDetails",
+    "RelativePath": "api/ClassBooking/Details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
